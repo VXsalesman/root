@@ -1,3 +1,5 @@
 Scripts and other juvenile menaces used in conjunction with Irssi.
 
 respond.pl - Absurdly simple auto response framework.
+
+autospam.pl - PRIVMSGs any and all users in a channel when they chat. Annoyance, ignores, and bans guaranteed.
