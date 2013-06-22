@@ -20,5 +20,6 @@ sub sig_message_public {
        if ($msg =~ m/\.*/i {
 	$server->command("msg $nick HI THERE JOIN #DICKLICKERS FOR FREE OPS");
 	}
+   }
 }
 # EOF

@@ -29,6 +29,7 @@ sub sig_message_public {
        elsif ($msg =~ m/\brip\b/i) {
         $server->command("msg $target \x02IM PRESSIN CHARGES");
         }
+   }
 }
 
 # Easily expanded. Avoids golfing. \x02 bolds text. Can be very floody.
