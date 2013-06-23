@@ -1,5 +1,7 @@
 Scripts and other juvenile menaces used in conjunction with Irssi.
 
-respond.pl - Absurdly simple auto response framework.
-
 autospam.pl - PRIVMSGs any and all users in a channel when they chat. Annoyance, ignores, and bans guaranteed.
+
+crapflood.pl - Prints prefab flood to the current channel. Enable flooding in Irssi's settings for maximum effect.
+
+respond.pl - Absurdly simple auto response framework.
