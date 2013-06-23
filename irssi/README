@@ -2,6 +2,8 @@ Scripts and other juvenile menaces used in conjunction with Irssi.
 
 autospam.pl - PRIVMSGs any and all users in a channel when they chat. Annoyance, ignores, and bans guaranteed.
 
+extendedfantasy.pl - Irssi pseudobot providing a range of fantasy commands. Requires channel access. Designed with UnrealIRCd and Atheme in mind. WIP
+
 crapflood.pl - Prints prefab flood to the current channel. Enable flooding in Irssi's settings for maximum effect.
 
 respond.pl - Absurdly simple auto response framework.
