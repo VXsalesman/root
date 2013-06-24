@@ -49,7 +49,7 @@ sub cmd_crapflood {
        }
       if ($flood =~/-stallman/i) {
         Irssi::Windowitem::command($witem,"say  ----------------------------------------------------------------------------");
-        Irssi::Windowitem::command($witem,"say / I'd just like to interject for a moment. What you're referring to as      \\");
+        Irssi::Windowitem::command($witem,"say / I'd just like to interject for a moment. What you're referring to as       \\");
         Irssi::Windowitem::command($witem,"say | Linux, is in fact GNU/Linux, or as I've recently taken to calling it,      |");
         Irssi::Windowitem::command($witem,"say | GNU plus Linux. Linux is not an operating system unto itself, but rather   |");
         Irssi::Windowitem::command($witem,"say | another free component of a fully functioning GNU system made useful by    |");
