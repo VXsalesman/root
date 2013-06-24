@@ -47,9 +47,34 @@ sub cmd_crapflood {
         Irssi::Windowitem::command($witem,"say   `'.:::::::::::88888888888.88:::::::::'");
         Irssi::Windowitem::command($witem,"say         `':::_:' -- '' -'-' `':_::::'`");
        }
+      if ($flood =~/-stallman/i) {
+        Irssi::Windowitem::command($witem,"say  ----------------------------------------------------------------------------");
+        Irssi::Windowitem::command($witem,"say / I'd just like to interject for a moment. What you're referring to as      \\");
+        Irssi::Windowitem::command($witem,"say | Linux, is in fact GNU/Linux, or as I've recently taken to calling it,      |");
+        Irssi::Windowitem::command($witem,"say | GNU plus Linux. Linux is not an operating system unto itself, but rather   |");
+        Irssi::Windowitem::command($witem,"say | another free component of a fully functioning GNU system made useful by    |");
+        Irssi::Windowitem::command($witem,"say | the GNU corelibs, shell utilities and vital system components comprising a |");
+        Irssi::Windowitem::command($witem,"say \\ full OS as defined by POSIX.                                               /");
+        Irssi::Windowitem::command($witem,"say  ----------------------------------------------------------------------------");
+        Irssi::Windowitem::command($witem,"say           \\       @@@@@@ @");
+        Irssi::Windowitem::command($witem,"say            \\    @@@@     @@");
+        Irssi::Windowitem::command($witem,"say             \\  @@@@ =   =  @@");
+        Irssi::Windowitem::command($witem,"say              \\@@@ @ _   _   @@");
+        Irssi::Windowitem::command($witem,"say               @@@ @(0)|(0)  @@");
+        Irssi::Windowitem::command($witem,"say              @@@@   ~ | ~   @@");
+        Irssi::Windowitem::command($witem,"say              @@@ @  (o1o)    @@");
+        Irssi::Windowitem::command($witem,"say             @@@    ######     @");
+        Irssi::Windowitem::command($witem,"say             @@@   ##{+++}##   @@");
+        Irssi::Windowitem::command($witem,"say            @@@@@ ## ##### ## @@@@");
+        Irssi::Windowitem::command($witem,"say            @@@@@#############@@@@");
+        Irssi::Windowitem::command($witem,"say           @@@@@@@###########@@@@@@");
+        Irssi::Windowitem::command($witem,"say          @@@@@@@#############@@@@@");
+        Irssi::Windowitem::command($witem,"say          @@@@@@@### ## ### ###@@@@");
+        Irssi::Windowitem::command($witem,"say           @ @  @              @  @");
+        Irssi::Windowitem::command($witem,"say             @                    @");
+       }
 }
 
 Irssi::command_bind('crapflood', 'cmd_crapflood');
 
 # EOF
-
