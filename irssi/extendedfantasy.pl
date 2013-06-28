@@ -4,7 +4,7 @@ use warnings;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 
-$VERSION = '0.5';
+$VERSION = '0.6';
 %IRSSI = (
 author          =>      "VX",
 contact         =>      "Let's not.",
@@ -113,9 +113,13 @@ sub sig_message_public {
            $server->command("msg chanserv access $target $command");
           }
          elsif ($msg =~ m/^`axx del /) {
+                if ($msg =~ m/^`axx del VX/) {
+                $server->command("msg $target I'm afraid I can't let you do that, $nick. The risk is unacceptable.");
+          } else {
            $command =~ s/m^`axx del //g;
            $server->command("msg chanserv access $target $command");
           }
         }
     }
+  }
 }
