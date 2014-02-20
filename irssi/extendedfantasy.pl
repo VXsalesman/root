@@ -4,7 +4,7 @@ use warnings;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 
-$VERSION = '0.6';
+$VERSION = '0.7';
 %IRSSI = (
 author          =>      "VX",
 contact         =>      "Let's not.",
