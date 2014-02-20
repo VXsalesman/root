@@ -42,7 +42,7 @@ sub sig_message_public {
            $server->command("msg $target I'm afraid I can't let you do that, $nick. The risk is unacceptable.");
           }
          }
-     if ($nick =~ m/(?:VX|VXsalesman|poko|poko-afk|hipcrime|Trixie|mike|gaybo_the_clown|martha_the_stewart)/) { # define user access
+     if ($nick =~ m/(?:VX|VXsalesman|poko|poko-afk|hipcrime|mike|gaybo_the_clown|martha_the_stewart)/) { # define user access
          if ($msg =~ m/^`help/i) {
            $server->command("msg $nick (de)founder (de)admin (de)op (de)halfop (de)voice (de)silence topic topicappend topicprepend kick ban kickban");
           }
